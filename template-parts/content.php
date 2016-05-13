@@ -15,7 +15,7 @@
         <?php the_excerpt(); ?>
     </div>
     <div class="post-prev-more">
-        <a href="<?php the_permalink(); ?>" class="btn btn-mod btn-gray btn-round">Read More <i class="fa fa-angle-right"></i></a>
+        <a href="<?php the_permalink(); ?>" class="btn btn-mod btn-gray btn-round"> <?php __('Read More') ?> <i class="fa fa-angle-right"></i></a>
     </div>
 </div>
 <!-- End Post Item -->

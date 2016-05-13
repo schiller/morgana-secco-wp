@@ -3958,6 +3958,9 @@ a.logo:hover{
 .contact-form .form-group{
     margin-bottom: 10px;
 }
+#contact-message {
+  height: 178px;
+}
 
 
 
@@ -4310,6 +4313,13 @@ a.blog-item-more{
 }
 a.blog-item-more:hover{
 	color: #111;
+}
+.blog-item-more a{
+  color: #777;
+  text-decoration: none;
+}
+.blog-item-more a:hover{
+  color: #111;
 }
 
 .blog-item-q{

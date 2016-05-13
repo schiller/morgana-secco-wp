@@ -45,11 +45,17 @@
 
                     endwhile; endif;
                 ?>
-				
+
                 <!-- Prev/Next Post -->
                 <div class="clearfix mt-40">
-                    <a href="#" class="blog-item-more left"><i class="fa fa-angle-left"></i>&nbsp;Prev post</a>
-                    <a href="#" class="blog-item-more right">Next post&nbsp;<i class="fa fa-angle-right"></i></a>
+                    <?php previous_post_link(
+                        '<div class="blog-item-more left"><i class="fa fa-angle-left"></i>&nbsp; %link </div>', 
+                        '%title', true);
+                    ?>
+                    <?php next_post_link(
+                        '<div class="blog-item-more right"> %link &nbsp;<i class="fa fa-angle-right"></i></div>',
+                        '%title', true);
+                    ?>
                 </div>
                 <!-- End Prev/Next Post -->
                 

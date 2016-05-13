@@ -15,7 +15,7 @@
 
     <?php
       $args = array(
-        'walker' => new comment_walker(),
+        'walker' => new morgana_comment_walker(),
         'avatar_size' => 50,
         'short_ping' => true
       );

@@ -27,8 +27,6 @@ function morgana_scripts() {
   wp_enqueue_script( 'isotope.pkgd.min', get_template_directory_uri() . '/js/isotope.pkgd.min.js', array('jquery'), false, true);
   wp_enqueue_script( 'imagesloaded.pkgd.min', get_template_directory_uri() . '/js/imagesloaded.pkgd.min.js', array('jquery'), false, true);
   wp_enqueue_script( 'jquery.magnific-popup.min', get_template_directory_uri() . '/js/jquery.magnific-popup.min.js', array('jquery'), false, true);
-  wp_enqueue_script( 'maps.google', 'http://maps.google.com/maps/api/js?sensor=false&amp;language=en', array(), false, true);
-  wp_enqueue_script( 'gmap3.min', get_template_directory_uri() . '/js/gmap3.min.js', array('jquery'), false, true);
   wp_enqueue_script( 'wow.min', get_template_directory_uri() . '/js/wow.min.js', array('jquery'), false, true);
   wp_enqueue_script( 'masonry.pkgd.min', get_template_directory_uri() . '/js/masonry.pkgd.min.js', array('jquery'), false, true);
   wp_enqueue_script( 'jquery.simple-text-rotator.min', get_template_directory_uri() . '/js/jquery.simple-text-rotator.min.js', array('jquery'), false, true);
@@ -44,26 +42,70 @@ function morgana_enqueue_comment_reply() {
 add_action('wp_print_scripts', 'morgana_enqueue_comment_reply');
 
 function morgana_modify_query_exclude_category( $query ) {
-    if ( $query->is_main_query() && ! $query->is_category()  ) {
+    if ( ! is_admin() && ! $query->is_category() && ! $query->is_search() ) {
       $cat_id = get_category_by_slug('galerias');
       $query->set( 'category__not_in', $cat_id );
-    } elseif ($query->is_category('galerias')) {
+    } elseif ( ! is_admin() && $query->is_category('galerias') ) {
       $cat_id = get_category_by_slug('portfolio');
       $query->set( 'category__not_in', $cat_id );
     }
-
-    // if ($query->is_category('galerias')) {
-    //   $cat_id = get_category_by_slug('portfolio');
-    //   $query->set( 'category__not_in', $cat_id );
-    // }
 }
 add_action( 'pre_get_posts', 'morgana_modify_query_exclude_category' );
+
+// Register our sidebars and widgetized areas. 
+function morgana_widgets_init() {
+  register_sidebar( array(
+    'name'          => 'Footer 1',
+    'id'            => 'footer_1',
+    'before_widget' => '<div class="widget widget-body widget-text widget-menu clearlist">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h5 class="widget-title font-alt">',
+    'after_title'   => '</h5>',
+  ) );
+
+  register_sidebar( array(
+    'name'          => 'Footer 2',
+    'id'            => 'footer_2',
+    'before_widget' => '<div class="widget widget-body widget-text widget-menu clearlist">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h5 class="widget-title font-alt">',
+    'after_title'   => '</h5>',
+  ) );
+
+  register_sidebar( array(
+    'name'          => 'Footer 3',
+    'id'            => 'footer_3',
+    'before_widget' => '<div class="widget widget-body widget-text widget-menu clearlist">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h5 class="widget-title font-alt">',
+    'after_title'   => '</h5>',
+  ) );
+
+  register_sidebar( array(
+    'name'          => 'Footer 4',
+    'id'            => 'footer_4',
+    'before_widget' => '<div class="widget widget-body widget-text widget-menu clearlist">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h5 class="widget-title font-alt">',
+    'after_title'   => '</h5>',
+  ) );
+}
+add_action( 'widgets_init', 'morgana_widgets_init' );
 
 // WordPress Titles
 add_theme_support( 'title-tag' );
 
 // Support Featured Images
 add_theme_support( 'post-thumbnails' );
+
+// Switch default core markup for search form, comment form, and comments to output valid HTML5.
+add_theme_support( 'html5', array(
+  'search-form',
+  'comment-form',
+  'comment-list',
+  'gallery',
+  'caption',
+) );
 
 class morgana_comment_walker extends Walker_Comment {
   var $tree_type = 'comment';

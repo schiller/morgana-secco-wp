@@ -1,5 +1,5 @@
 <!-- Post Item -->
-<div class="col-sm-6 col-md-4 col-lg-4 mb-60 mb-xs-40">
+<div class="col-sm-6 col-md-4 col-lg-4 mb-60 mb-xs-40 wow fadeIn" data-wow-delay="0.1s" data-wow-duration="2s">
   <div class="post-prev-img">
     <a href="<?php the_permalink(); ?>">
       <?php if ( has_post_thumbnail() ) :
@@ -20,7 +20,7 @@
   </div>
   <div class="post-prev-more">
     <a href="<?php the_permalink(); ?>" class="btn btn-mod btn-gray btn-round">
-      <?php __('Read More') ?> <i class="fa fa-angle-right"></i>
+      <?php echo __('Read More') ?> <i class="fa fa-angle-right"></i>
     </a>
   </div>
 </div>

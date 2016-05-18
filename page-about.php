@@ -1,195 +1,86 @@
 <?php get_header(); ?>
 
 <!-- Head Section -->
-<section class="page-section bg-dark-alfa-50 parallax-3" data-background="<?php bloginfo('template_directory');?>/images/full-width-images/section-bg-10.jpg">
-    <div class="relative container align-left">
-        
-        <div class="row">
-            
-            <div class="col-md-8">
-                <h1 class="hs-line-11 font-alt mb-20 mb-xs-0">About Us</h1>
-                <div class="hs-line-4 font-alt">
-                    Extraordinary art team &&nbsp;creative minimalism lovers
-                </div>
-            </div>
-            
-            <div class="col-md-4 mt-30">
-                <div class="mod-breadcrumbs font-alt align-right">
-                    <a href="<?php bloginfo('wpurl');?>">Home</a>&nbsp;/&nbsp;<a href="#">Pages</a>&nbsp;/&nbsp;<span>About Us</span>
-                </div>
-                
-            </div>
+<section class="small-section bg-dark-alfa-50 parallax-3" 
+  data-background="<?php bloginfo('template_directory');?>/images/full-width-images/section-bg-10.jpg">
+  <div class="relative container align-left">
+    <div class="row">
+      <div class="col-md-8">
+        <h1 class="hs-line-11 font-alt mb-20 mb-xs-0"><?php echo __('About Us') ?></h1>
+        <div class="hs-line-4 font-alt">
+          <!-- Extraordinary art team &&nbsp;creative minimalism lovers -->
         </div>
-        
+      </div>
+      <div class="col-md-4 mt-30">
+        <div class="mod-breadcrumbs font-alt align-right">
+          <a href="<?php bloginfo('wpurl');?>">Home</a>&nbsp;/&nbsp;<span><?php echo __('About Us') ?></span>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 <!-- End Head Section -->
 
-
 <!-- About Section -->
 <section class="page-section" id="about">
-    <div class="container relative">
-        
-        <div class="section-text mb-50 mb-sm-20">
-            <div class="row">
-            
-                <div class="col-md-4">
-                    <blockquote>
-                        <p>
-                        Design is&nbsp;not making beauty, beauty emerges from selection, affinities, integration, love.
-                        </p>
-                        <footer>
-                            Louis Kahn
-                        </footer>
-                    </blockquote>
-                </div>
-                
-                <div class="col-md-4 col-sm-6 mb-sm-50 mb-xs-30">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum nibh volutpat, accumsan purus. 
-                </div>
-                
-                <div class="col-md-4 col-sm-6 mb-sm-50 mb-xs-30">
-                    Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. Integer lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero. Donec vel ultricies purus. Nam dictum sem, eu aliquam.
-                </div>
-                
-            </div>
+  <div class="container relative">
+    <div class="section-text mb-50 mb-sm-20">
+      <div class="row">
+
+        <div class="col-md-8 col-sm-6 mb-sm-50 mb-xs-30">
+          <p> 
+            Foi a partir do meu amor por viagens e por conhecer lugares e pessoas novas que me dei conta da minha paixão pela fotografia. Ficava encantada quando as fotografias conseguiam demonstrar não somente um local estático, mas emoções e aura da pessoa, do momento ou do lugar. Aí resolvi que queria descobrir tudo sobre esse meu novo hobby. Fiz cursos, workshops, li livros, troquei ideias, busquei muito conhecimento online, conheci o trabalho de muita gente, vi filmes, visitei exposições, fotografei amigos... E comecei mais ainda a enxergar a luz de cada lugar e ver beleza onde antes talvez tivesse passado despercebido.
+          </p>
+          <p>
+            Alguns anos depois de descobrir este mundo, percebi que queria que a fotografia fosse mais do que um hobby. Então abri mão do meu emprego público de engenheira química e finalizei meu mestrado para conseguir mergulhar na minha paixão. Agora fotografo pessoas,  mulheres, homens, crianças, famílias. Mas com poucas fotos posadas e nada de estúdio. Prefiro a luz natural e adoro fotos espontâneas. Gosto de fotos que expressem a personalidade do fotografado e procuro ressaltar sentimentos para que as expressões capturadas sejam o mais genuínas possíveis! Os ensaios acabam sendo momentos de entrega e diversão, um tempo para se conectar com a família ou consigo mesmo e no qual eu coloco todo o meu amor e dedicação para que o resultado seja o mais verdadeiro.
+          </p>
+          <p>
+            Seja bem vindo ao meu site, espero que goste! :)
+          </p>
         </div>
-        
-        
-        <div class="row">
-            
-            <!-- Team item -->
-            <div class="col-sm-4 mb-xs-30 wow fadeInUp">
-                <div class="team-item">
-                    
-                    <div class="team-item-image">
-                        
-                        <img src="<?php bloginfo('template_directory');?>/images//team/team-1.jpg" alt="" />
-                        
-                        <div class="team-item-detail">
-                            
-                            <h4 class="font-alt normal">Hello & Welcome!</h4>
-                            
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus, a&nbsp;iaculis diam. 
-                            </p>
-                            
-                            <div class="team-social-links">
-                                <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                                <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                                <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    
-                    <div class="team-item-descr font-alt">
-                        
-                        <div class="team-item-name">
-                            Thomas Rhythm 
-                        </div>
-                        
-                        <div class="team-item-role">
-                            Art Director
-                        </div>
-                        
-                    </div>
-                    
+
+        <!-- Team item -->
+        <div class="col-md-4 col-sm-6 mb-xs-30 wow fadeInUp">
+          <div class="team-item">
+            <div class="team-item-image">
+              <img src="<?php bloginfo('template_directory');?>/images/team/Morgana_Secco_Fotografia_sobre-320x479.jpg"
+                  srcset="<?php bloginfo('template_directory');?>/images/team/Morgana_Secco_Fotografia_sobre-1937x2901.jpg 1937w,
+                    <?php bloginfo('template_directory');?>/images/team/Morgana_Secco_Fotografia_sobre-1024x1534.jpg 1024w,
+                    <?php bloginfo('template_directory');?>/images/team/Morgana_Secco_Fotografia_sobre-640x959.jpg 640w,
+                    <?php bloginfo('template_directory');?>/images/team/Morgana_Secco_Fotografia_sobre-320x479.jpg 320w"
+                  sizes="(min-width: 768px) 345px,
+                    (min-width: 992px) 294px,
+                    (min-width: 1200px) 360px,
+                    100vw"
+                  alt="Morgana Secco"/>
+              <div class="team-item-detail">
+                <h4 class="font-alt normal">Siga-nos nas redes sociais!</h4>
+                <div class="team-social-links">
+                  <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                  <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                  <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
                 </div>
+              </div>
             </div>
-            <!-- End Team item -->
-            
-            <!-- Team item -->
-            <div class="col-sm-4 mb-xs-30 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="team-item">
-                    
-                    <div class="team-item-image">
-                        
-                        <img src="<?php bloginfo('template_directory');?>/images//team/team-2.jpg" alt="" />
-                        
-                        <div class="team-item-detail">
-                            
-                            <h4 class="font-alt normal">Nice to meet!</h4>
-                            
-                            <p>
-                                Curabitur augue, nec finibus mauris pretium eu. Duis placerat ex gravida nibh tristique porta.
-                            </p>
-                            
-                            <div class="team-social-links">
-                                <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                                <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                                <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    
-                    <div class="team-item-descr font-alt">
-                        
-                        <div class="team-item-name">
-                            Marta Laning
-                        </div>
-                        
-                        <div class="team-item-role">
-                            Web engineer
-                        </div>
-                        
-                    </div>
-                    
-                </div>
+            <div class="team-item-descr font-alt">
+              <div class="team-item-name">
+                Morgana Secco 
+              </div>
+              <div class="team-item-role">
+                Fotógrafa
+              </div>
             </div>
-            <!-- End Team item -->
-            
-            <!-- Team item -->
-            <div class="col-sm-4 mb-xs-30 wow fadeInUp" data-wow-delay="0.2s">
-                <div class="team-item">
-                    
-                    <div class="team-item-image">
-                        
-                        <img src="<?php bloginfo('template_directory');?>/images//team/team-3.jpg" alt="" />
-                        
-                        <div class="team-item-detail">
-                            
-                            <h4 class="font-alt normal">Whats Up!</h4>
-                            
-                            <p>
-                                Adipiscing elit curabitur eu&nbsp;adipiscing lacus eu&nbsp;adipiscing lacus, a&nbsp;iaculis diam. 
-                            </p>
-                            
-                            <div class="team-social-links">
-                                <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                                <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                                <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    
-                    <div class="team-item-descr font-alt">
-                        
-                        <div class="team-item-name">
-                            Steve ANDERS
-                        </div>
-                        
-                        <div class="team-item-role">
-                            Developer
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            <!-- End Team item -->
-            
+          </div>
         </div>
-        
+        <!-- End Team item -->
+      </div>
     </div>
 </section>
 <!-- End About Section -->
 
-
 <!-- Testimonials Section -->
-<section class="page-section bg-dark bg-dark-alfa-90 fullwidth-slider" data-background="<?php bloginfo('template_directory');?>/images/full-width-images/section-bg-3.jpg">
+<section class="page-section bg-dark bg-dark-alfa-90 fullwidth-slider" 
+  data-background="<?php bloginfo('template_directory');?>/images/full-width-images/section-bg-3.jpg">
     
     <!-- Slide Item -->
     <div>

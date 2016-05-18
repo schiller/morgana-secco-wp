@@ -1,19 +1,18 @@
 <?php get_header(); ?>
 
 <!-- Head Section -->
-<section class="page-section bg-dark-alfa-70 parallax-3" 
-  data-background="<?php bloginfo('template_directory');?>/images/full-width-images/section-bg-25.jpg">
+<section class="small-section bg-dark-alfa-70">
   <div class="relative container align-left">
     <div class="row">
       <div class="col-md-8">
-        <h1 class="hs-line-11 font-alt mb-20 mb-xs-0">Contact</h1>
+        <h1 class="hs-line-11 font-alt mb-20 mb-xs-0">Contato</h1>
         <div class="hs-line-4 font-alt">
-          We’re always open to talk to good people
+          Peça um orçamento!
         </div>
       </div>
       <div class="col-md-4 mt-30">
         <div class="mod-breadcrumbs font-alt align-right">
-          <a href="<?php bloginfo('wpurl');?>">Home</a>&nbsp;/&nbsp;<span>Contact</span>
+          <a href="<?php bloginfo('wpurl');?>">Home</a>&nbsp;/&nbsp;<span>Contato</span>
         </div>
       </div>
     </div>
@@ -25,8 +24,11 @@
 <section class="page-section" id="contact">
   <div class="container relative">
 
-    <h2 class="section-title font-alt mb-70 mb-sm-40">
-      Have questions?
+    <h2 class="section-text align-center font-alt mb-70 mb-sm-40">
+      Para saber mais sobre meu trabalho ou solicitar orçamentos, mande uma mensagem.
+    </h2>
+    <h2 class="section-text align-center font-alt mb-70 mb-sm-40">
+      Ficarei muito feliz em responder! :)
     </h2>
 
     <div class="row mb-60 mb-xs-40">

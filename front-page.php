@@ -1,41 +1,87 @@
 <?php get_header(); ?>
 
-<!-- Home Section -->
-<section class="home-section bg-gray bg-light-alfa-50 parallax-2" data-background="<?php bloginfo('template_directory');?>/images/full-width-images/section-bg-7.jpg" id="home">
-    <div class="js-height-full">
-        
-        <!-- Hero Content -->
-        <div class="home-content container">
-            <div class="home-text">
-                
-                <h1 class="hs-line-8 no-transp font-alt mb-50 mb-xs-30">
-                    Branding / Design / Development / Photo
-                </h1>
-                
-                <h2 class="hs-line-14 font-alt mb-50 mb-xs-30">
-                    We love design
-                </h2>
-                
-                <div class="local-scroll">
-                    <a href="#about" class="btn btn-mod btn-medium btn-round hidden-xs">See More</a>
-                    <span class="hidden-xs">&nbsp;</span>
-                    <a href="pages-pricing-1.html" class="btn btn-mod btn-medium btn-round">Get Pricing</a>
-                </div>
-                
-            </div>
-        </div>
-        <!-- End Hero Content -->
-        
-        <!-- Scroll Down -->
-        <div class="local-scroll">
-            <a href="#about" class="scroll-down"><i class="fa fa-angle-down scroll-down-icon"></i></a>
-        </div>
-        <!-- End Scroll Down -->
-        
-    </div>
-</section>
-<!-- End Home Section -->
+<!-- Fullwidth Slider -->
+<div class="home-section fullwidth-slider bg-dark" id="home">
 
+  <!-- Slide Item -->
+  <section class="home-section bg-scroll bg-dark-alfa-30" 
+    data-background="<?php bloginfo('template_directory');?>/images/full-width-images/section-bg-6.jpg">
+    <div class="js-height-full container">
+
+      <!-- Hero Content -->
+      <div class="home-content">
+        <div class="home-text">
+          <h1 class="hs-line-8 no-transp font-alt mb-50 mb-xs-30">
+            We Are just crative people
+          </h1>
+          <h2 class="hs-line-14 font-alt mb-50 mb-xs-30">
+            Rhythm Creative Studio
+          </h2>
+          <div class="local-scroll">
+            <a href="#about" class="btn btn-mod btn-border-w btn-medium btn-round hidden-xs">See More</a>
+            <span class="hidden-xs">&nbsp;</span>
+            <a href="http://vimeo.com/50201327" 
+              class="btn btn-mod btn-border-w btn-medium btn-round lightbox mfp-iframe">Play Reel</a>
+          </div>
+        </div>
+      </div>
+      <!-- End Hero Content -->
+    </div>
+  </section>
+  <!-- End Slide Item -->
+
+  <!-- Slide Item -->
+  <section class="home-section bg-scroll bg-dark-alfa-50" 
+    data-background="<?php bloginfo('template_directory');?>/images/full-width-images/section-bg-10.jpg">
+    <div class="js-height-full container">
+
+      <!-- Hero Content -->
+      <div class="home-content">
+        <div class="home-text">
+          <h1 class="hs-line-8 no-transp font-alt mb-50 mb-xs-30">
+            Branding / Design / Development / Photo
+          </h1>
+          <h2 class="hs-line-14 font-alt mb-50 mb-xs-30">
+            Design Studio
+          </h2>
+          <div class="local-scroll">
+            <a href="#about" class="btn btn-mod btn-border-w btn-medium btn-round hidden-xs">See More</a>
+            <span class="hidden-xs">&nbsp;</span>
+            <a href="http://vimeo.com/50201327" 
+              class="btn btn-mod btn-border-w btn-medium btn-round lightbox mfp-iframe">Play Reel</a>
+          </div>
+        </div>
+      </div>
+      <!-- End Hero Content -->
+    </div>
+  </section>
+  <!-- End Slide Item -->
+
+  <!-- Slide Item -->
+  <section class="home-section bg-scroll bg-dark-alfa-30" 
+    data-background="<?php bloginfo('template_directory');?>/images/full-width-images/section-bg-9.jpg">
+    <div class="js-height-full container">
+
+      <!-- Hero Content -->
+      <div class="home-content">
+        <div class="home-text">
+          <h2 class="hs-line-8 no-transp font-alt mb-50 mb-xs-30">
+            Create your dream with
+          </h2>
+          <h1 class="hs-line-14 font-alt mb-50 mb-xs-30">
+            Amazing Design
+          </h1>
+          <div>
+            <a href="pages-pricing-1.html" class="btn btn-mod btn-border-w btn-medium btn-round">Get Pricing</a>
+          </div>
+        </div>
+      </div>
+      <!-- End Hero Content -->
+    </div>
+  </section>
+  <!-- End Slide Item -->
+</div>
+<!-- End Fullwidth Slider -->
 
 <!-- About Section -->
 <section class="page-section" id="about">
@@ -337,7 +383,8 @@
 
 
 <!-- Call Action Section -->
-<section class="page-section pt-0 pb-0 banner-section bg-dark" data-background="<?php bloginfo('template_directory');?>/images/full-width-images/section-bg-2.jpg">
+<section class="page-section pt-0 pb-0 banner-section bg-dark" 
+    data-background="<?php bloginfo('template_directory');?>/images/full-width-images/section-bg-2.jpg">
     <div class="container relative">
         
         <div class="row">
@@ -438,79 +485,42 @@
 
 <!-- Portfolio Section -->
 <section class="page-section pb-0" id="portfolio">
-    <div class="relative">
-        
-        <h2 class="section-title font-alt mb-70 mb-sm-40">
-            Latest Works
-        </h2>
-        
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    
-                    <div class="section-text align-center mb-70 mb-xs-40">
-                        Curabitur eu adipiscing lacus, a iaculis diam. Nullam placerat blandit auctor. Nulla accumsan ipsum et nibh rhoncus, eget tempus sapien ultricies. Donec mollis lorem vehicula.
-                    </div>
-                    
-                </div>
-            </div>
+  <div class="relative">
+    <h2 class="section-title font-alt mb-70 mb-sm-40">
+      Últimos Trabalhos
+    </h2>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="section-text align-center mb-70 mb-xs-40">
+            Curabitur eu adipiscing lacus, a iaculis diam. Nullam placerat blandit auctor. Nulla accumsan ipsum et nibh rhoncus, eget tempus sapien ultricies. Donec mollis lorem vehicula.
+          </div>
         </div>
-        
-        <!-- Works Grid -->
-        <ul class="works-grid work-grid-3 work-grid-gut clearfix font-alt hover-white hide-titles" id="work-grid">
-            
-            <!-- Work Item (External Page) -->
-            <li class="work-item">
-                <a href="portfolio-single-1.html" class="work-ext-link">
-                    <div class="work-img">
-                        <img class="work-img" src="<?php bloginfo('template_directory');?>/images/portfolio/projects-13.jpg" alt="Work" />
-                    </div>
-                    <div class="work-intro">
-                        <h3 class="work-title">Man</h3>
-                        <div class="work-descr">
-                            External Page
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <!-- End Work Item -->
-            
-            <!-- Work Item (External Page) -->
-            <li class="work-item">
-                <a href="portfolio-single-1.html" class="work-ext-link">
-                    <div class="work-img">
-                        <img class="work-img" src="<?php bloginfo('template_directory');?>/images/portfolio/projects-14.jpg" alt="Work" />
-                    </div>
-                    <div class="work-intro">
-                        <h3 class="work-title">Woman</h3>
-                        <div class="work-descr">
-                            External Page
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <!-- End Work Item -->
-            
-            <!-- Work Item (External Page) -->
-            <li class="work-item">
-                <a href="portfolio-single-1.html" class="work-ext-link">
-                    <div class="work-img">
-                        <img class="work-img" src="<?php bloginfo('template_directory');?>/images/portfolio/projects-6.jpg" alt="Work" />
-                    </div>
-                    <div class="work-intro">
-                        <h3 class="work-title">Man with bag</h3>
-                        <div class="work-descr">
-                            External Page
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <!-- End Work Item -->
-            
-        </ul>
-        <!-- End Works Grid -->
-        
+      </div>
     </div>
+
+    <!-- Works Grid -->
+    <ul class="works-grid work-grid-3 work-grid-gut clearfix font-alt hover-white hide-titles" id="work-grid">
+
+      <?php
+        $cat_id = get_category_by_slug('portfolio');
+        $latest_galleries = new WP_Query(array(
+          'category_name' => 'galerias',
+          'category__not_in' => $cat_id,
+          'posts_per_page' => 3
+        ));
+
+        if ( $latest_galleries->have_posts() ) : 
+          while ( $latest_galleries->have_posts() ) : 
+            $latest_galleries->the_post();
+            get_template_part( 'template-parts/content', 'gallery' );
+          endwhile;
+        endif;
+      ?>            
+    </ul>
+    <!-- End Works Grid -->    
+  </div>
 </section>
 <!-- End Portfolio Section -->
 
@@ -647,7 +657,8 @@
 
 
 <!-- Testimonials Section -->
-<section class="page-section bg-dark bg-dark-alfa-90 fullwidth-slider" data-background="<?php bloginfo('template_directory');?>/images/full-width-images/section-bg-3.jpg">
+<section class="page-section bg-dark bg-dark-alfa-90 fullwidth-slider"
+  data-background="<?php bloginfo('template_directory');?>/images/full-width-images/section-bg-3.jpg">
     
     <!-- Slide Item -->
     <div>
@@ -723,103 +734,8 @@
         </div>
     </div>
     <!-- End Slide Item -->
-    
 </section>
 <!-- End Testimonials Section -->
-
-
-<!-- Shop Section -->
-<section class="page-section">
-    <div class="container relative">
-        
-        <h2 class="section-title font-alt align-left mb-70 mb-sm-40">
-            Bestsellers
-            
-            <a href="shop-columns-3col.html" class="section-more right">Our Shop <i class="fa fa-angle-right"></i></a>
-            
-        </h2>
-        
-        <div class="row multi-columns-row">
-        
-            <!-- Shop Item -->
-            <div class="col-md-3 col-lg-3 mb-60 mb-xs-40 wow fadeIn" data-wow-delay="0.1s" data-wow-duration="2s">
-                <div class="post-prev-img">
-                    <a href="shop-single.html"><img src="<?php bloginfo('template_directory');?>/images/shop/shop-prev-1.jpg" alt="" /></a>
-                    <div class="intro-label">
-                        <span class="label label-danger bg-red">Sale</span>
-                    </div>
-                </div>
-                <div class="post-prev-title font-alt align-center">
-                    <a href="shop-single.html">G-Star Polo Applique Jersey</a>
-                </div>
-                <div class="post-prev-text align-center">
-                    <del>
-                        $150.00
-                    </del>
-                    &nbsp;<strong>$94.75</strong>
-                </div>
-                <div class="post-prev-more align-center">
-                    <a href="#" class="btn btn-mod btn-gray btn-round"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                </div>
-            </div>
-            <!-- End Shop Item -->
-            
-            <!-- Shop Item -->
-            <div class="col-md-3 col-lg-3 mb-60 mb-xs-40 wow fadeIn" data-wow-delay="0.2s" data-wow-duration="2s">
-                <div class="post-prev-img">
-                    <a href="shop-single.html"><img src="<?php bloginfo('template_directory');?>/images/shop/shop-prev-2.jpg" alt="" /></a>
-                </div>
-                <div class="post-prev-title font-alt align-center">
-                    <a href="shop-single.html">Only & Sons Pique Polo Shirt</a>
-                </div>
-                <div class="post-prev-text align-center">
-                    <strong>$28.99</strong>
-                </div>
-                <div class="post-prev-more align-center">
-                    <a href="#" class="btn btn-mod btn-gray btn-round"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                </div>
-            </div>
-            <!-- End Shop Item -->
-            
-            <!-- Shop Item -->
-            <div class="col-md-3 col-lg-3 mb-60 mb-xs-40 wow fadeIn" data-wow-delay="0.3s" data-wow-duration="2s">
-                <div class="post-prev-img">
-                    <a href="shop-single.html"><img src="<?php bloginfo('template_directory');?>/images/shop/shop-prev-3.jpg" alt="" /></a>
-                </div>
-                <div class="post-prev-title font-alt align-center">
-                    <a href="shop-single.html">Longline Long Sleeve</a>
-                </div>
-                <div class="post-prev-text align-center">
-                    <strong>$39.99</strong>
-                </div>
-                <div class="post-prev-more align-center">
-                    <a href="#" class="btn btn-mod btn-gray btn-round"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                </div>
-            </div>
-            <!-- End Shop Item -->
-            
-            <!-- Shop Item -->
-            <div class="col-md-3 col-lg-3 mb-60 mb-xs-40 wow fadeIn" data-wow-delay="0.4s" data-wow-duration="2s">
-                <div class="post-prev-img">
-                    <a href="shop-single.html"><img src="<?php bloginfo('template_directory');?>/images/shop/shop-prev-4.jpg" alt="" /></a>
-                </div>
-                <div class="post-prev-title font-alt align-center">
-                    <a href="shop-single.html">Polo Shirt With Floral Sleeves</a>
-                </div>
-                <div class="post-prev-text align-center">
-                    <strong>$85.99</strong>
-                </div>
-                <div class="post-prev-more align-center">
-                    <a href="#" class="btn btn-mod btn-gray btn-round"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                </div>
-            </div>
-            <!-- End Shop Item -->
-        
-        </div>
-        
-    </div>
-</section>
-<!-- End Shop Section -->
 
 
 <!-- Divider -->
@@ -930,7 +846,8 @@
 
 
 <!-- Section -->
-<section class="page-section bg-dark-alfa-70 bg-scroll" data-background="<?php bloginfo('template_directory');?>/images/full-width-images/section-bg-16.jpg">
+<section class="page-section bg-dark-alfa-70 bg-scroll" 
+    data-background="<?php bloginfo('template_directory');?>/images/full-width-images/section-bg-16.jpg">
     <div class="container relative">
         
         <!-- Features Grid -->
@@ -1072,138 +989,28 @@
 
 <!-- Blog Section -->
 <section class="page-section" id="news">
-    <div class="container relative">
-        
-        <h2 class="section-title font-alt align-left mb-70 mb-sm-40">
-            Latest News
-            
-            <a href="blog-classic-sidebar-right.html" class="section-more right">All News in our blog <i class="fa fa-angle-right"></i></a>
-            
-        </h2>
-        
-        <div class="row multi-columns-row">
-            
-            <!-- Post Item -->
-            <div class="col-sm-6 col-md-4 col-lg-4 mb-md-50 wow fadeIn" data-wow-delay="0.1s" data-wow-duration="2s">
-                
-                <div class="post-prev-img">
-                    <a href="blog-single-sidebar-right.html"><img src="<?php bloginfo('template_directory');?>/images/blog/post-prev-1.jpg" alt="" /></a>
-                </div>
-                
-                <div class="post-prev-title font-alt">
-                    <a href="">New Web Design Trends</a>
-                </div>
-                
-                <div class="post-prev-info font-alt">
-                    <a href="">John Doe</a> | 10 December
-                </div>
-                
-                <div class="post-prev-text">
-                    Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor 
-                    consectetur fermentum nibh volutpat, accumsan purus. 
-                </div>
-                
-                <div class="post-prev-more">
-                    <a href="" class="btn btn-mod btn-gray btn-round">Read More <i class="fa fa-angle-right"></i></a>
-                </div>
-                
-            </div>
-            <!-- End Post Item -->
-            
-            <!-- Post Item -->
-            <div class="col-sm-6 col-md-4 col-lg-4 mb-md-50 wow fadeIn" data-wow-delay="0.2s" data-wow-duration="2s">
-                
-                <div class="post-prev-img">
-                    <a href="blog-single-sidebar-right.html"><img src="<?php bloginfo('template_directory');?>/images/blog/post-prev-2.jpg" alt="" /></a>
-                </div>
-                
-                <div class="post-prev-title font-alt">
-                    <a href="">Minimalistic Design Forever</a>
-                </div>
-                
-                <div class="post-prev-info font-alt">
-                    <a href="">John Doe</a> | 9 December
-                </div>
-                
-                <div class="post-prev-text">
-                    Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor 
-                    consectetur fermentum nibh volutpat, accumsan purus. 
-                </div>
-                
-                <div class="post-prev-more">
-                    <a href="" class="btn btn-mod btn-gray btn-round">Read More <i class="fa fa-angle-right"></i></a>
-                </div>
-                
-            </div>
-            <!-- End Post Item -->
-            
-            <!-- Post Item -->
-            <div class="col-sm-6 col-md-4 col-lg-4 mb-md-50 wow fadeIn" data-wow-delay="0.3s" data-wow-duration="2s">
-                
-                <div class="post-prev-img">
-                    <a href="blog-single-sidebar-right.html"><img src="<?php bloginfo('template_directory');?>/images/blog/post-prev-3.jpg" alt="" /></a>
-                </div>
-                
-                <div class="post-prev-title font-alt">
-                    <a href="">Hipster&rsquo;s Style in&nbsp;Web</a>
-                </div>
-                
-                <div class="post-prev-info font-alt">
-                    <a href="">John Doe</a> | 7 December
-                </div>
-                
-                <div class="post-prev-text">
-                    Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor 
-                    consectetur fermentum nibh volutpat, accumsan purus. 
-                </div>
-                
-                <div class="post-prev-more">
-                    <a href="" class="btn btn-mod btn-gray btn-round">Read More <i class="fa fa-angle-right"></i></a>
-                </div>
-                
-            </div>
-            <!-- End Post Item -->
-            
-        </div>
-        
-    </div>
+  <div class="container relative">
+    <h2 class="section-title font-alt align-left mb-70 mb-sm-40">
+      Últimas postagens
+      <a href="/blog" class="section-more right">
+        Veja todos os posts <i class="fa fa-angle-right"></i>
+      </a>
+    </h2>
+    <div class="row multi-columns-row">
+
+      <?php 
+        $latest_blog_posts = new WP_Query( array( 'posts_per_page' => 3 ) );
+        if ( $latest_blog_posts->have_posts() ) : 
+          while ( $latest_blog_posts->have_posts() ) : 
+            $latest_blog_posts->the_post();
+            get_template_part( 'template-parts/content');
+          endwhile;
+        endif;
+      ?>
+    </div>    
+  </div>
 </section>
 <!-- End Blog Section -->
-
-
-<!-- Newsletter Section -->
-<section class="small-section bg-gray-lighter">
-    <div class="container relative">
-        
-        <form class="form align-center" id="mailchimp">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    
-                    <div class="newsletter-label font-alt">
-                        Stay informed with our newsletter
-                    </div>
-                    
-                    <div class="mb-20">
-                        <input placeholder="Enter Your Email" class="newsletter-field form-control input-md round mb-xs-10" type="email" pattern=".{5,100}" required/>
-                        
-                        <button type="submit" class="btn btn-mod btn-medium btn-round mb-xs-10">
-                            Subscribe
-                        </button>
-                    </div>
-                    
-                    <div class="form-tip">
-                        <i class="fa fa-info-circle"></i> Please trust us, we will never send you spam
-                    </div>
-                    
-                    <div id="subscribe-result"></div>
-                    
-                </div>
-            </div>
-        </form>
-        
-    </div>
-</section>
-<!-- End Newsletter Section -->
 
 
 <!-- Contact Section -->

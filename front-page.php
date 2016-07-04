@@ -381,7 +381,6 @@
 </section>
 <!-- End Services Section -->
 
-
 <!-- Call Action Section -->
 <section class="page-section pt-0 pb-0 banner-section bg-dark" 
     data-background="<?php bloginfo('template_directory');?>/images/full-width-images/section-bg-2.jpg">
@@ -415,7 +414,6 @@
     </div>
 </section>
 <!-- End Call Action Section -->
-
 
 <!-- Process Section -->
 <section class="page-section">
@@ -477,11 +475,9 @@
 </section>
 <!-- End Process Section -->
 
-
 <!-- Divider -->
 <hr class="mt-0 mb-0"/>
 <!-- End Divider -->
-
 
 <!-- Portfolio Section -->
 <section class="page-section pb-0" id="portfolio">
@@ -524,7 +520,6 @@
 </section>
 <!-- End Portfolio Section -->
 
-
 <!-- Call Action Section -->
 <section class="small-section bg-dark">
     <div class="container relative">
@@ -539,7 +534,6 @@
     </div>
 </section>
 <!-- End Call Action Section -->
-
 
 <!-- Features Section -->
 <section class="page-section">
@@ -655,7 +649,6 @@
 </section>
 <!-- End Features Section -->
 
-
 <!-- Testimonials Section -->
 <section class="page-section bg-dark bg-dark-alfa-90 fullwidth-slider"
   data-background="<?php bloginfo('template_directory');?>/images/full-width-images/section-bg-3.jpg">
@@ -737,11 +730,9 @@
 </section>
 <!-- End Testimonials Section -->
 
-
 <!-- Divider -->
 <hr class="mt-0 mb-0 "/>
 <!-- End Divider -->
-
 
 <!-- Section -->
 <section class="page-section">
@@ -790,11 +781,9 @@
 </section>
 <!-- End Section -->
 
-
 <!-- Divider -->
 <hr class="mt-0 mb-0 "/>
 <!-- End Divider -->
-
 
 <!-- Section -->
 <section class="page-section">
@@ -843,7 +832,6 @@
     </div>
 </section>
 <!-- End Section -->
-
 
 <!-- Section -->
 <section class="page-section bg-dark-alfa-70 bg-scroll" 
@@ -986,7 +974,6 @@
 </section>
 <!-- End Section -->
 
-
 <!-- Blog Section -->
 <section class="page-section" id="news">
   <div class="container relative">
@@ -1011,7 +998,6 @@
   </div>
 </section>
 <!-- End Blog Section -->
-
 
 <!-- Contact Section -->
 <section class="page-section" id="contact">
@@ -1082,7 +1068,6 @@
     </div>
 </section>
 <!-- End Contact Section -->
-
 
 <!-- Call Action Section -->
 <section class="small-section bg-dark">

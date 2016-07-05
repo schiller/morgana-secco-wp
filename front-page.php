@@ -12,7 +12,7 @@
       <div class="home-content">
         <div class="home-text">
           <h1 class="hs-line-8 no-transp font-alt mb-50 mb-xs-30">
-            We Are just crative people
+            We Are just creative people
           </h1>
           <h2 class="hs-line-14 font-alt mb-50 mb-xs-30">
             Morgana Secco Fotografia

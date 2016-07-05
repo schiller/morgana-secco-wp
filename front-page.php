@@ -15,7 +15,7 @@
             We Are just crative people
           </h1>
           <h2 class="hs-line-14 font-alt mb-50 mb-xs-30">
-            Rhythm Creative Studio
+            Morgana Secco Fotografia
           </h2>
           <div class="local-scroll">
             <a href="#about" class="btn btn-mod btn-border-w btn-medium btn-round hidden-xs">See More</a>

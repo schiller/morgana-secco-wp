@@ -28,14 +28,12 @@
       <div class="row">
 
         <div class="col-md-8 col-sm-6 mb-sm-50 mb-xs-30">
-          <p> 
-            Foi a partir do meu amor por viagens e por conhecer lugares e pessoas novas que me dei conta da minha paixão pela fotografia. Ficava encantada quando as fotografias conseguiam demonstrar não somente um local estático, mas emoções e aura da pessoa, do momento ou do lugar. Aí resolvi que queria descobrir tudo sobre esse meu novo hobby. Fiz cursos, workshops, li livros, troquei ideias, busquei muito conhecimento online, conheci o trabalho de muita gente, vi filmes, visitei exposições, fotografei amigos... E comecei mais ainda a enxergar a luz de cada lugar e ver beleza onde antes talvez tivesse passado despercebido.
-          </p>
           <p>
-            Alguns anos depois de descobrir este mundo, percebi que queria que a fotografia fosse mais do que um hobby. Então abri mão do meu emprego público de engenheira química e finalizei meu mestrado para conseguir mergulhar na minha paixão. Agora fotografo pessoas,  mulheres, homens, crianças, famílias. Mas com poucas fotos posadas e nada de estúdio. Prefiro a luz natural e adoro fotos espontâneas. Gosto de fotos que expressem a personalidade do fotografado e procuro ressaltar sentimentos para que as expressões capturadas sejam o mais genuínas possíveis! Os ensaios acabam sendo momentos de entrega e diversão, um tempo para se conectar com a família ou consigo mesmo e no qual eu coloco todo o meu amor e dedicação para que o resultado seja o mais verdadeiro.
-          </p>
-          <p>
-            Seja bem vindo ao meu site, espero que goste! :)
+            <?php
+                if ( have_posts() ) : while ( have_posts() ) : the_post();
+                    the_content();
+                endwhile; endif;
+            ?>
           </p>
         </div>
 

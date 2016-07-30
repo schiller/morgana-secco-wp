@@ -15,7 +15,7 @@
             
             <div class="col-md-4 mt-30">
                 <div class="mod-breadcrumbs font-alt align-right">
-                    <a href="<?php bloginfo('wpurl');?>">Home</a>&nbsp;/&nbsp;<a href="#">Blog</a>&nbsp;/&nbsp;<span>Single</span>
+                    <a href="<?php bloginfo('wpurl');?>">Home</a>&nbsp;/&nbsp;<a href="<?php bloginfo('wpurl');?>/blog">Blog</a>&nbsp;/&nbsp;<span>Single</span>
                 </div>
                 
             </div>
@@ -33,7 +33,7 @@
         <div class="row">
             
             <!-- Content -->
-            <div class="col-sm-10 col-sm-offset-1">
+            <div class="col-sm-12">
                 
                 <?php
                     if ( have_posts() ) : while ( have_posts() ) : the_post();
